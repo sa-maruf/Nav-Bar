@@ -40,11 +40,23 @@ nav {
 
 .mob-menu {
     display: none;
+    margin-top: 20px;
 }
 
-.mob-menu a {
+.mob-menu li {
+    margin-top: 20px;
     color: #1C646A;
     font-weight: 600;
+}
+
+.mob-menu button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 6px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: #1C646A;
+    color: white;
 }
 
 /* seach icon  */
@@ -91,11 +103,11 @@ nav {
     /* seach icon  */
     .search-fild {
         width: 80%;
-        height: 40px;
+        height: 36px;
     }
 
     .search-btn {
-        height: 40px;
+        height: 36px;
     }
 }
 
@@ -118,5 +130,14 @@ nav {
 
     .mob-menu.active {
         display: block;
+    }
+
+    /* seach icon  */
+    .search-fild {
+        height: 36px;
+    }
+
+    .search-btn {
+        height: 36px;
     }
 }
