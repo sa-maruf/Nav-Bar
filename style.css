@@ -79,10 +79,11 @@ nav {
     height: 50px;
     float: left;
     border: 1px solid #1C646A;
+    background-color: white;
     border-right: none;
-    background: transparent;
-    border-bottom-left-radius: 8px;
-    border-top-left-radius: 8px;
+    /* background: transparent; */
+    border-bottom-left-radius:8px;
+    border-top-left-radius:8px;
     outline: none;
     padding-left: 10px;
 }
@@ -91,8 +92,9 @@ nav {
     height: 50px;
     float: left;
     border: 1px solid #1C646A;
+    background-color: #1C646A;
     border-left: none;
-    background: transparent;
+    /* background: transparent; */
     padding: 0 10px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
